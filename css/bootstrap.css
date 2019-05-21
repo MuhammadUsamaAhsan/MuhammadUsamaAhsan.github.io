@@ -4654,7 +4654,7 @@ tbody.collapse.show {
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
-	    overflow: scroll !important;
+	    overflow: auto !important;
 
 }
 

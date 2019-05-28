@@ -4,6 +4,12 @@
 	License URL: http://creativecommons.org/licenses/by/3.0/
  --*/
 
+@media (max-width: 960px) {
+    .dropdown-menu {
+        margin-left: 25% !important;
+    }
+}
+
 body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
@@ -58,6 +64,7 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+
 /*-- bottom-to-top --*/
 
 #toTop {
@@ -95,9 +102,12 @@ input.form-control {
     background: #BED0E9;
 }
 
+
 /*-- //bottom-to-top --*/
 
+
 /* mega nav */
+
 
 /* nav.navbar{ 
     background: #c2e59c;
@@ -154,7 +164,9 @@ a.navbar-brand:first-letter {
     font-size: 1em;
 }
 
+
 /* CART  */
+
 
 /*-- cart-button --*/
 
@@ -179,7 +191,9 @@ select.form-control.input-lg {
     cursor: pointer;
 }
 
+
 /*-- cart-css --*/
+
 
 /*/////////////////////////middleBar//////////////////////*/
 
@@ -202,6 +216,7 @@ form.nav-search.form-inline.form-control {
     transition: all 0.1s ease-in;
 }
 
+
 /* megaDropMenu */
 
 h5.head_agileinfo {
@@ -222,6 +237,7 @@ h5.shop_w3 {
     color: #64b3f4;
     border-bottom: 1px solid #ded6d6;
 }
+
 
 /* banner */
 
@@ -280,7 +296,7 @@ h3.agile_btxt span {
     font-family: 'Elsie Swash Caps', cursive;
 }
 
-h2.agile_btxt a{
+h2.agile_btxt a {
     font-size: 1em;
     text-transform: uppercase;
     color: #000;
@@ -288,9 +304,11 @@ h2.agile_btxt a{
     line-height: 70px;
     text-align: right;
 }
-h2.agile_btxt{
+
+h2.agile_btxt {
     text-align: right;
 }
+
 h4.head_agileinfo {
     font-size: 3em;
     text-transform: uppercase;
@@ -402,6 +420,7 @@ h4.bn_right span {
     font-size: 1.2em;
 }
 
+
 /*-- text Slider --*/
 
 .callbacks_container {
@@ -420,6 +439,7 @@ h4.bn_right span {
 .callbacks li {
     width: 100%;
 }
+
 
 /*
 .callbacks_nav {
@@ -533,9 +553,12 @@ h4.bn_right span {
     background: #007bff;
 }
 
+
 /* //slider ends here */
 
+
 /* banner */
+
 
 /*-- services --*/
 
@@ -574,6 +597,7 @@ h4.bn_right span {
     background: #2954a2;
 }
 
+
 /*-- Effect 1--*/
 
 .agileits-services-grids span {
@@ -581,7 +605,9 @@ h4.bn_right span {
     color: #0076BE;
 }
 
+
 /*-- //services --*/
+
 
 /* about */
 
@@ -677,7 +703,9 @@ h4.bn_right span {
     transition-delay: .2s;
 }
 
+
 /* //about */
+
 
 /* about-gallery */
 
@@ -685,6 +713,7 @@ h4.bn_right span {
     margin-bottom: 0;
     padding: 0 40px 30px 40px;
 }
+
 
 /* The controls */
 
@@ -712,6 +741,7 @@ a.thumbnail.active {
     right: -12px;
 }
 
+
 /* The indicators */
 
 .carousel-indicators {
@@ -721,6 +751,7 @@ a.thumbnail.active {
     margin-right: -19px;
     display: none;
 }
+
 
 /* The colour of the indicators */
 
@@ -732,7 +763,9 @@ a.thumbnail.active {
     background: #428bca;
 }
 
+
 /* //about-gallery */
+
 
 /*-- Tabs --*/
 
@@ -843,7 +876,9 @@ a.thumbnail.active {
     background-color: #FFF;
 }
 
+
 /*-- //Tabs --*/
+
 
 /*--contact--*/
 
@@ -875,7 +910,9 @@ form.f-color .form-control {
     color: #000;
 }
 
+
 /*--//contact--*/
+
 
 /*-- footer --*/
 
@@ -1006,7 +1043,9 @@ p.w3ls_head_para {
     font-size: 0.9em;
 }
 
+
 /*-- /contact section --*/
+
 
 /* instagram */
 
@@ -1072,7 +1111,9 @@ p.w3ls_head_para {
     transform: rotateY(180deg);
 }
 
+
 /* instagram */
+
 
 /*-- footer section --*/
 
@@ -1265,7 +1306,9 @@ ul.bottom-links-agile li a {
     letter-spacing: 1px;
 }
 
+
 /*-- /footer variant2 --*/
+
 
 /* blog */
 
@@ -1274,6 +1317,7 @@ ul.bottom-links-agile li a {
     font-size: 1em;
     font-weight: 600;
 }
+
 
 /* //blog */
 
@@ -1289,6 +1333,7 @@ ul.bottom-links-agile li a {
     font-weight: bold;
     font-size: 2em;
 }
+
 
 /* blog-single */
 
@@ -1348,7 +1393,9 @@ ul.bottom-links-agile li a {
     color: #2d2d2d;
 }
 
+
 /* //blog - single */
+
 
 /*-- testimonial --*/
 
@@ -1428,7 +1475,9 @@ ul.bottom-links-agile li a {
     text-align: center;
 }
 
+
 /*-- //testimonial --*/
+
 
 /* -- Responsive code -- */
 
@@ -1573,7 +1622,6 @@ ul.bottom-links-agile li a {
     .responsive_tabs {
         margin-top: 1em;
     }
-    
 }
 
 @media screen and (max-width: 900px) {
@@ -1672,7 +1720,6 @@ ul.bottom-links-agile li a {
         overflow: hidden;
     }
 }
-
 
 @media screen and (max-width: 667px) {
     .bnr_clip {
@@ -1826,9 +1873,9 @@ ul.bottom-links-agile li a {
     h4.rad-txt.text-capitalize {
         font-size: 1.3em;
     }
-	.nav-icon.d-flex {
-		margin-left: 2em;
-	}
+    .nav-icon.d-flex {
+        margin-left: 2em;
+    }
 }
 
 @media screen and (max-width: 414px) {
@@ -1949,5 +1996,6 @@ ul.bottom-links-agile li a {
         font-size: 15px;
     }
 }
+
 
 /* -- //Responsive code -- */

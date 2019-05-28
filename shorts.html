@@ -39,6 +39,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <link href="//fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
     <!-- //online-fonts -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body>
@@ -46,15 +48,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <header>
         <div class="container">
             <!-- top nav -->
-            <nav class="top_nav d-flex pt-3 pb-1">
+            <nav class="top_nav d-flex pt-0 pb-1">
                 <!-- logo -->
                 <h1>
-                    <a class="navbar-brand" href="index.html"><img class="img-fluid" src="images/logo1.jpg" alt="">
+                    <a class="navbar-brand animated flip" href="index.html"><img class="img-fluid" src="images/logo5.png" alt="">
 
                     </a>
                 </h1>
+
                 <!-- //logo -->
-                <div class="w3ls_right_nav ml-auto d-flex">
+                <div class=" ml-auto  animated fadeInRight delay-2s" style=" padding: 29px;">
+                    <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                    <!-- <a href="https://twitter.com/services_dubai"><i class="fab fa-twitter"></i></a> -->
+                    <a href="https://api.whatsapp.com/send?phone=971506004246"><i class="fab fa-whatsapp pl-3" ></i></a>
+                    <!-- <a href="mailto:info@dubaitourservices.com?Subject=Hello"><i class="fab fa-google-plus"></i></a> -->
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram pl-3"></i></a>
+
                     <!-- search form -->
                     <!-- <form class="nav-search form-inline my-0 form-control" action="#" method="post">
                         <select class="form-control input-lg" name="category">
@@ -94,6 +103,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     </form> -->
                     <!-- search form -->
                     <div class="nav-icon d-flex">
+
 
                         <!-- sigin and sign up -->
                         <!-- <a class="text-dark login_btn align-self-center mx-3" href="#myModal_btn" data-toggle="modal" data-target="#myModal_btn">
@@ -192,7 +202,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                             <a class="dropdown-item" href="women.html">Jeans</a>
                                         </div> -->
                                         <div class="col-md-8">
-                                            <a class="dropdown-item" href="women_tshirt.html">T-Shirts</a>
+                                            <a class="dropdown-item" href="women_jeans.html">Jeans</a>
                                             <a class="dropdown-item" href="women_kurta.html">Kurta</a>
                                             <!-- <a class="dropdown-item" href="men.html">Coats</a> -->
                                             <a class="dropdown-item" href="women_shirts.html">Shirts</a>
@@ -297,146 +307,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <!-- card group  -->
                     <div class="card-group">
                         <!-- card -->
-                        <div class="col-lg-3 col-sm-6 p-0">
-                            <div class="card product-men p-3 ">
-                                <div class="men-thumb-item">
-                                    <img src="images/Men/Shirts/s1.jpg" alt="img" class="card-img-top">
-                                    <div class="men-cart-pro">
-                                        <div class="inner-men-cart-pro">
-                                            <a href="mens.html" class="link-product-add-cart">Quick View</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- card body -->
-                                <div class="card-body  py-3 px-4 ">
-                                    <h5 class="card-title text-capitalize">Solid Formal Black Shirt</h5>
-                                    <div class="card-text d-flex justify-content-between">
-                                        <p class="text-dark font-weight-bold">$40.00</p>
-                                        <p class="line-through">$50.99</p>
-                                    </div>
-                                </div>
-                                <!-- card footer -->
-                                <div class="card-footer d-flex justify-content-end">
-                                    <form action="#" method="post">
-                                        <input type="hidden" name="cmd" value="_cart">
-                                        <input type="hidden" name="add" value="1">
-                                        <input type="hidden" name="hub_item" value="Solid Formal Black Shirt">
-                                        <input type="hidden" name="amount" value="40.00">
-                                        <button type="submit" class="hub-cart phub-cart btn">
-											<i class="fa fa-cart-plus" aria-hidden="true"></i>
-										</button>
-                                        <a href="#" data-toggle="modal" data-target="#myModal1"></a>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
+
                         <!-- //card -->
                         <!-- card -->
-                        <div class="col-lg-3 col-sm-6 p-0">
-                            <div class="card product-men p-3">
-                                <div class="men-thumb-item">
-                                    <img src="images/Men/Shirts/s2.jpg" alt="img" class="card-img-top">
-                                    <div class="men-cart-pro">
-                                        <div class="inner-men-cart-pro">
-                                            <a href="mens.html" class="link-product-add-cart">Quick View</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- card body -->
-                                <div class="card-body  py-3 px-2">
-                                    <h5 class="card-title text-capitalize">Solid Formal Brown Shirt</h5>
-                                    <div class="card-text d-flex justify-content-between">
-                                        <p class="text-dark font-weight-bold">$24.99</p>
-                                        <p class="line-through">$35.99</p>
-                                    </div>
-                                </div>
-                                <!-- card footer -->
-                                <div class="card-footer d-flex justify-content-end">
-                                    <form action="#" method="post">
-                                        <input type="hidden" name="cmd" value="_cart">
-                                        <input type="hidden" name="add" value="1">
-                                        <input type="hidden" name="hub_item" value="Solid Formal Brown Shirt">
-                                        <input type="hidden" name="amount" value="24.99">
-                                        <button type="submit" class="hub-cart phub-cart btn">
-											<i class="fa fa-cart-plus" aria-hidden="true"></i>
-										</button>
-                                        <a href="#" data-toggle="modal" data-target="#myModal1"></a>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
+
                         <!-- //card -->
-                        <div class="col-lg-3 col-sm-6 p-0">
-                            <!-- card -->
-                            <div class="card product-men p-3">
-                                <div class="men-thumb-item">
-                                    <img src="images/Men/Shirts/s3.jpg" alt="img" class="card-img-top">
-                                    <div class="men-cart-pro">
-                                        <div class="inner-men-cart-pro">
-                                            <a href="mens.html" class="link-product-add-cart">Quick View</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- card body -->
-                                <div class="card-body  py-3 px-2">
-                                    <h5 class="card-title text-capitalize">Solid Formal Green Shirt</h5>
-                                    <div class="card-text d-flex justify-content-between">
-                                        <p class="text-dark font-weight-bold">$18.99</p>
-                                        <p class="line-through">$24.99</p>
-                                    </div>
-                                </div>
-                                <!-- card footer -->
-                                <div class="card-footer d-flex justify-content-end">
-                                    <form action="#" method="post">
-                                        <input type="hidden" name="cmd" value="_cart">
-                                        <input type="hidden" name="add" value="1">
-                                        <input type="hidden" name="hub_item" value="Solid Formal Green Shirt">
-                                        <input type="hidden" name="amount" value="18.99">
-                                        <button type="submit" class="hub-cart phub-cart btn">
-											<i class="fa fa-cart-plus" aria-hidden="true"></i>
-										</button>
-                                        <a href="#" data-toggle="modal" data-target="#myModal1"></a>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
+
                         <!-- //card -->
                         <!-- card -->
-                        <div class="col-lg-3 col-sm-6 p-0">
-                            <div class="card product-men p-3">
-                                <div class="men-thumb-item">
-                                    <img src="images/Men/Shirts/s4.jpg" alt="img" class="card-img-top">
-                                    <div class="men-cart-pro">
-                                        <div class="inner-men-cart-pro">
-                                            <a href="mens.html" class="link-product-add-cart">Quick View</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- card body -->
-                                <div class="card-body  py-3 px-2">
-                                    <h5 class="card-title text-capitalize">Solid Formal Blue Shirt</h5>
-                                    <div class="card-text d-flex justify-content-between">
-                                        <p class="text-dark font-weight-bold">$21.99</p>
-                                        <p class="line-through">$25.99</p>
-                                    </div>
-                                </div>
-                                <!-- card footer -->
-                                <div class="card-footer d-flex justify-content-end">
-                                    <form action="#" method="post">
-                                        <input type="hidden" name="cmd" value="_cart">
-                                        <input type="hidden" name="add" value="1">
-                                        <input type="hidden" name="hub_item" value="Solid Formal Blue Shirt">
-                                        <input type="hidden" name="amount" value="21.99">
-                                        <button type="submit" class="hub-cart phub-cart btn">
-											<i class="fa fa-cart-plus" aria-hidden="true"></i>
-										</button>
-                                        <a href="#" data-toggle="modal" data-target="#myModal1"></a>
-                                    </form>
-                                </div>
-                            </div>
-                            <!-- //card -->
-                            <!-- //row  -->
-                        </div>
+
                         <!-- //card group 1-->
                         <!-- card group 2 -->
                         <div class="card-group my-5">
@@ -444,7 +323,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             <div class="col-lg-3 col-sm-6 p-0">
                                 <div class="card product-men p-3">
                                     <div class="men-thumb-item">
-                                        <img src="images/Men/Shirts/s5.jpg" alt="img" class="card-img-top">
+                                        <img src="images/Men/Jeans/j5.jpg" alt="img" class="card-img-top">
                                         <div class="men-cart-pro">
                                             <div class="inner-men-cart-pro">
                                                 <a href="mens.html" class="link-product-add-cart">Quick View</a>
@@ -453,10 +332,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                     </div>
                                     <!-- card body -->
                                     <div class="card-body  py-3 px-2">
-                                        <h5 class="card-title text-capitalize">Black Casual Men's Blazer</h5>
+                                        <h5 class="card-title text-capitalize">Camel Men Short</h5>
                                         <div class="card-text d-flex justify-content-between">
-                                            <p class="text-dark font-weight-bold">$20.00</p>
-                                            <p class="line-through">$25.00</p>
+                                            <!-- <p class="text-dark font-weight-bold">$20.00</p>
+                                            <p class="line-through">$25.00</p> -->
                                         </div>
                                     </div>
                                     <!-- card footer -->
@@ -479,7 +358,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             <div class="col-lg-3 col-sm-6 p-0">
                                 <div class="card product-men p-3">
                                     <div class="men-thumb-item">
-                                        <img src="images/Men/Shirts/s6.jpg" alt="img" class="card-img-top">
+                                        <img src="images/Men/Jeans/j6.jpg" alt="img" class="card-img-top">
                                         <div class="men-cart-pro">
                                             <div class="inner-men-cart-pro">
                                                 <a href="mens.html" class="link-product-add-cart">Quick View</a>
@@ -488,10 +367,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                     </div>
                                     <!-- card body -->
                                     <div class="card-body  py-3 px-2">
-                                        <h5 class="card-title text-capitalize">Blue Wedding Formal Blazer</h5>
+                                        <h5 class="card-title text-capitalize">Brown Men Short</h5>
                                         <div class="card-text d-flex justify-content-between">
-                                            <p class="text-dark font-weight-bold">$35.00</p>
-                                            <p class="line-through">$44.99</p>
+                                            <!-- <p class="text-dark font-weight-bold">$35.00</p>
+                                            <p class="line-through">$44.99</p> -->
                                         </div>
                                     </div>
                                     <!-- card footer -->
@@ -514,15 +393,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             <div class="col-lg-3 col-sm-6 p-0">
                                 <div class="card product-men p-3 ">
                                     <div class="men-thumb-item position-relative">
-                                        <img src="images/Men/Shirts/s7.jpg" alt="img" class="card-img-top">
+                                        <img src="images/Men/Jeans/j7.jpg" alt="img" class="card-img-top">
                                         <!-- <span class="px-2 position-absolute">out of stock</span> -->
                                     </div>
                                     <!-- card body -->
                                     <div class="card-body  py-3 px-2">
-                                        <h5 class="card-title text-capitalize">grey Wedding Formal Blazer</h5>
+                                        <h5 class="card-title text-capitalize">Dark Red Men Short</h5>
                                         <div class="card-text d-flex justify-content-between">
-                                            <p class="text-dark font-weight-bold">$25.00</p>
-                                            <p class="line-through">$28.00</p>
+                                            <!-- <p class="text-dark font-weight-bold">$25.00</p>
+                                            <p class="line-through">$28.00</p> -->
                                         </div>
                                     </div>
                                     <!-- card footer -->
@@ -536,15 +415,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             <div class="col-lg-3 col-sm-6 p-0">
                                 <div class="card product-men p-3 ">
                                     <div class="men-thumb-item position-relative">
-                                        <img src="images/Men/Shirts/s7.jpg" alt="img" class="card-img-top">
+                                        <img src="images/Men/Jeans/j7.jpg" alt="img" class="card-img-top">
                                         <!-- <span class="px-2 position-absolute">out of stock</span> -->
                                     </div>
                                     <!-- card body -->
                                     <div class="card-body  py-3 px-2">
-                                        <h5 class="card-title text-capitalize">grey Wedding Formal Blazer</h5>
+                                        <h5 class="card-title text-capitalize">Dark Red Men Short</h5>
                                         <div class="card-text d-flex justify-content-between">
-                                            <p class="text-dark font-weight-bold">$25.00</p>
-                                            <p class="line-through">$28.00</p>
+                                            <!-- <p class="text-dark font-weight-bold">$25.00</p>
+                                            <p class="line-through">$28.00</p> -->
                                         </div>
                                     </div>
                                     <!-- card footer -->
@@ -555,6 +434,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                     </div>
                                 </div>
                             </div>
+
                             <!-- //card -->
                             <!-- card -->
 
@@ -565,150 +445,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
                         <!-- //card group -->
                         <!-- card group  -->
-                        <div class="card-group mt-5">
-                            <!-- row1-->
-                            <!-- card -->
-                            <div class="col-lg-3 col-sm-6 p-0">
-                                <div class="card product-men p-3">
-                                    <div class="men-thumb-item">
-                                        <img src="images/pm1.jpg" alt="img" class="card-img-top">
-                                        <div class="men-cart-pro">
-                                            <div class="inner-men-cart-pro">
-                                                <a href="mens.html" class="link-product-add-cart">Quick View</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- card body -->
-                                    <div class="card-body  py-3 px-2">
-                                        <h5 class="card-title text-capitalize">Slim Fit Men Black Jeans</h5>
-                                        <div class="card-text d-flex justify-content-between">
-                                            <p class="text-dark font-weight-bold">$21.99</p>
-                                            <p class="line-through">$25.99</p>
-                                        </div>
-                                    </div>
-                                    <!-- card footer -->
-                                    <div class="card-footer d-flex justify-content-end">
-                                        <form action="#" method="post">
-                                            <input type="hidden" name="cmd" value="_cart">
-                                            <input type="hidden" name="add" value="1">
-                                            <input type="hidden" name="hub_item" value="Slim Fit Men Black Jeans">
-                                            <input type="hidden" name="amount" value="21.99">
-                                            <button type="submit" class="hub-cart phub-cart btn">
-												<i class="fa fa-cart-plus" aria-hidden="true"></i>
-											</button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- //card -->
-                            <!-- card -->
-                            <div class="col-lg-3 col-sm-6 p-0">
-                                <div class="card product-men p-3">
-                                    <div class="men-thumb-item">
-                                        <img src="images/pm2.jpg" alt="img" class="card-img-top">
-                                        <div class="men-cart-pro">
-                                            <div class="inner-men-cart-pro">
-                                                <a href="mens.html" class="link-product-add-cart">Quick View</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- card body -->
-                                    <div class="card-body  py-3 px-2">
-                                        <h5 class="card-title text-capitalize">Slim Fit Men Black Jeans</h5>
-                                        <div class="card-text d-flex justify-content-between">
-                                            <p class="text-dark font-weight-bold">$19.99</p>
-                                            <p class="line-through">$24.99</p>
-                                        </div>
-                                    </div>
-                                    <!-- card footer -->
-                                    <div class="card-footer d-flex justify-content-end">
-                                        <form action="#" method="post">
-                                            <input type="hidden" name="cmd" value="_cart">
-                                            <input type="hidden" name="add" value="1">
-                                            <input type="hidden" name="hub_item" value="Slim Fit Men Black Jeans">
-                                            <input type="hidden" name="amount" value="19.99">
-                                            <button type="submit" class="hub-cart phub-cart btn">
-												<i class="fa fa-cart-plus" aria-hidden="true"></i>
-											</button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- //card -->
-                            <!-- card -->
-                            <div class="col-lg-3 col-sm-6 p-0">
-                                <div class="card product-men p-3">
-                                    <div class="men-thumb-item">
-                                        <img src="images/pm3.jpg" alt="img" class="card-img-top">
-                                        <div class="men-cart-pro">
-                                            <div class="inner-men-cart-pro">
-                                                <a href="mens.html" class="link-product-add-cart">Quick View</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- card body -->
-                                    <div class="card-body  py-3 px-2">
-                                        <h5 class="card-title text-capitalize">Slim Fit Men's Blue Trousers</h5>
-                                        <div class="card-text d-flex justify-content-between">
-                                            <p class="text-dark font-weight-bold">$16.99</p>
-                                            <p class="line-through">$20.99</p>
-                                        </div>
-                                    </div>
-                                    <!-- card footer -->
-                                    <div class="card-footer d-flex justify-content-end">
-                                        <form action="#" method="post">
-                                            <input type="hidden" name="cmd" value="_cart">
-                                            <input type="hidden" name="add" value="1">
-                                            <input type="hidden" name="hub_item" value="Slim Fit Men's Blue Trousers">
-                                            <input type="hidden" name="amount" value="16.99">
-                                            <button type="submit" class="hub-cart phub-cart btn">
-												<i class="fa fa-cart-plus" aria-hidden="true"></i>
-											</button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- //card -->
-                            <!-- card -->
-                            <div class="col-lg-3 col-sm-6 p-0">
-                                <div class="card product-men p-3">
-                                    <div class="men-thumb-item">
-                                        <img src="images/pm9.jpg" alt="img" class="card-img-top">
-                                        <div class="men-cart-pro">
-                                            <div class="inner-men-cart-pro">
-                                                <a href="mens.html" class="link-product-add-cart">Quick View</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- card body -->
-                                    <div class="card-body  py-3 px-2">
-                                        <h5 class="card-title text-capitalize">Slim Men's Dark Blue Jeans</h5>
-                                        <div class="card-text d-flex justify-content-between">
-                                            <p class="text-dark font-weight-bold">$17.99</p>
-                                            <p class="line-through">$24.99</p>
-                                        </div>
-                                    </div>
-                                    <!-- card footer -->
-                                    <div class="card-footer d-flex justify-content-end">
-                                        <form action="#" method="post">
-                                            <input type="hidden" name="cmd" value="_cart">
-                                            <input type="hidden" name="add" value="1">
-                                            <input type="hidden" name="hub_item" value="Slim Men's Dark Blue Jeans">
-                                            <input type="hidden" name="amount" value="17.99">
-                                            <button type="submit" class="hub-cart phub-cart btn">
-												<i class="fa fa-cart-plus" aria-hidden="true"></i>
-											</button>
-                                            <a href="#" data-toggle="modal" data-target="#myModal1"></a>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- //card -->
-                            <!-- //row  -->
-                        </div>
+
                         <!-- //card group -->
                     </div>
                 </div>
@@ -1023,7 +760,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
                 <div>
                     <i class="fa fa-envelope"></i>
-                    <p><a href="mailto:support@company.com">info@dubaitourservices.com </a></p>
+                    <p><a href="mailto:usmanali@signaturejeans.net">usmanali@signaturejeans.net </a></p>
                 </div>
 
             </div>
@@ -1037,11 +774,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
                 <div class="footer-icons">
 
-                    <a href="https://www.facebook.com/beautydubai007/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
                     <!-- <a href="https://twitter.com/services_dubai"><i class="fab fa-twitter"></i></a> -->
                     <a href="https://api.whatsapp.com/send?phone=971506004246"><i class="fab fa-whatsapp"></i></a>
                     <!-- <a href="mailto:info@dubaitourservices.com?Subject=Hello"><i class="fab fa-google-plus"></i></a> -->
-                    <a href="https://www.instagram.com/dubaitourservices/?hl=en"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
 
                 </div>
                 <br>
